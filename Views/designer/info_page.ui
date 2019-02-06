@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InfoPage</class>
+ <widget class="QWidget" name="InfoPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>45</y>
+     <width>420</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;a name=&quot;lipsum&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Open Sans,Arial,sans-serif'; font-size:12pt; color:#000000;&quot;&gt;L&lt;/span&gt;&lt;span style=&quot; font-family:'Open Sans,Arial,sans-serif'; font-size:12pt; color:#000000;&quot;&gt;orem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas, ex dictum mattis viverra, mauris ex placerat tellus, quis euismod elit diam mattis urna. Vivamus posuere consectetur tortor vitae lobortis. Ut suscipit a turpis ultricies dictum. Suspendisse luctus nisi a libero aliquet, ut dictum ligula vulputate. Suspendisse nec volutpat tortor. Praesent iaculis nibh quam, vel auctor odio ullamcorper at. Quisque ullamcorper, lectus auctor elementum bibendum, est erat suscipit enim, ac consequat elit mi a magna.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
