@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QFileDialog, QListView, QTreeView, QAbstractItemView
 from Views.designer.classify_page import Ui_ClassifyPage
 from Views.designer.info_page import Ui_InfoPage
 from Views.designer.main_window import Ui_MainWindow
+from Widgets.BorderLayout import BorderLayout
 from utils import images_in_dir
 
 
@@ -23,13 +24,17 @@ class InfoPageUIClass(Ui_InfoPage):
         '''Initialize the super class
         '''
         super().__init__()
-        self.layout = BorderLayout()
+
 
     def setupUi(self, MW):
         ''' Setup the UI of the super class, and add here code
         that relates to the way we want our UI to operate.
         '''
         super().setupUi(MW)
+        MW.layout = BorderLayout()
+        MW.layout.addWidget(self.textBrowser, BorderLayout.Center)
+        MW.setLayout(MW.layout)
+
 
 
 
@@ -44,6 +49,9 @@ class ClassifyPageUIClass(Ui_ClassifyPage):
         that relates to the way we want our UI to operate.
         '''
         super().setupUi(MW)
+        MW.layout = BorderLayout()
+        MW.layout.addWidget(self.widget, BorderLayout.Center)
+        MW.setLayout(MW.layout)
 
     def debugPrint( self, msg ):
         '''Print the message in the text edit at the bottom of the
